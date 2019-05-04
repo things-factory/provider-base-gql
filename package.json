@@ -1,0 +1,28 @@
+{
+  "name": "@things-factory/provider-base-gql",
+  "version": "0.0.2",
+  "main": "src/index.js",
+  "things-factory": true,
+  "license": "MIT",
+  "author": "heartyoh",
+  "scripts": {
+    "serve": "things-factory",
+    "serve:dev": "things-factory-dev",
+    "build:client": "webpack --config node_modules/@things-factory/shell/webpack.config.js",
+    "migration": "things-factory-migration"
+  },
+  "dependencies": {
+    "@things-factory/auth-base": "*",
+    "@things-factory/shell": "*",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "apollo-link-error": "^1.1.10",
+    "apollo-link-http": "^1.5.14",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.4",
+    "graphql-upload": "^8.0.6"
+  },
+  "devDependencies": {}
+}
